@@ -1,0 +1,21 @@
+.item-one , .item-two, .item-three, .item-four, .item-five, .item-six {
+    background-color: teal;
+    text-align: center;
+    border: 1px solid red;
+    color: white;
+}
+
+
+
+
+
+#container {
+    width: 95vw;
+    height: 60vh;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    outline: 8px solid #4834d4;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: ;
+}
